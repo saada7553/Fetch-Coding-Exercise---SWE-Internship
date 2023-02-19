@@ -1,0 +1,37 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I chose to use Python because it is my favorite language in terms of readibility. Also, I like the pandas library on python.
+I used this pandas library to build the data frame, which is like the original CSV but eaiser to work with in code. It provided
+a nice way to sort the rows based on the time stamp since I could turn the time stamp into a date time object. Additionally, I used
+the sys libraty to allow for the command line input. FInally, I used the json library to output the data as a JSON object, which is
+what the example showed. 
+
+2. What are the advantages and disadvantages of your solution?
+
+The advantage of my solution is that using pandas allows for the whole solution to be simplified. Sorting the rows would otherwise be 
+difficult since each row stores multiple colums, which would be hard to represent on a traditional array. 
+
+One disadvantage is that it currently does not update weather or not the oldest payment got spent. So if we ran this file over and over again, 
+the CSV file never gets updated meaning that you could basically spend as much as you wanted to. This can be fixed howver by simply adding 
+a way for the CSV file to be updated with the most recent information each time some points are spent. I however did not implement this since
+it was not stated in the description, and I did not want to over complicated the code. 
+
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+My favorite personal project was when I built a 2D printer from scratch. Its like a 3D printer, but it only moves in 2 dimentions.
+It is formally called a "pen plotter." There is a gantry which holds a pen that gets dragged around and physically draws out the picture. 
+It is different from a traditional printer since it uses a pen or pencil  to draw rather than ink jets. 
+
+I wrote the software to convert digital images into instructions for this printer to run. Its like the "driver" for this printer. 
+Before I got into Computer Science and programming, I really liked engineering. Because of this, the rest of the printer is built with parts I made on
+CAD myself and laser cut at school. 
+
+The hardest part of this both hardware and software project was the software. It took a long time to come up with an algorithm which would find
+singular pixel traces in jpeg files and convert them into linear movements for the robot's motors. 
+
+I made a video about this algorithm for a seperate competition, feel free to watch it if you want. I think its really cool: 
+
+https://youtu.be/x72oUEto-Zk
+
+I show the machine at 7:33
