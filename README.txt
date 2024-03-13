@@ -17,5 +17,3 @@ the command:
 python main.py 5000 transactions.csv
 
 The output will be shown in the terminal as a JSON object. 
-
-Please contact me if you have any further questions or need help with runing the file. 
